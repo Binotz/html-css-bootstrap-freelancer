@@ -64,11 +64,11 @@ nav{
 /* Portfolio */
 #portfolio{
     color: #333;
+    text-align: center;
     padding-bottom: 4rem;
 }
-#portfolio h2,
+#portfolio h3,
 #portfolio .star-strike{
-    text-align: center;
     padding: 1rem 0;
 }
 .col img{
@@ -93,4 +93,12 @@ nav{
 }
 .download-button{
     padding-top: 2rem;
+}
+/* Contact me */
+#contact-me{
+    text-align: center;
+}
+.contact-container{
+    width: 60%;
+    margin:0 auto;
 }
