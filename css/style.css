@@ -15,8 +15,14 @@ img{
 h2{
     font-size: 40px;
 }
-section{
+section,
+footer{
     padding: 2rem 0;
+}
+footer{
+    padding-top: 0rem;
+    background-color: #2c3e50;
+    color: white;
 }
 .star-strike{
     padding: 1rem 0;
@@ -101,4 +107,25 @@ nav{
 .contact-container{
     width: 60%;
     margin:0 auto;
+}
+/* Footer */
+/* Details */
+#details{
+    padding: 4rem 0;
+    background-color: #3a546d;
+}
+.container-details{
+    width: 90%;
+    margin: 0 auto
+}
+#details .col{
+    text-align: center;
+}
+#details .col:last-child span{
+    color: #1abc9c;
+}
+/* Copyright */
+#copyright{
+    text-align: center;
+    padding-bottom: 1rem;
 }
