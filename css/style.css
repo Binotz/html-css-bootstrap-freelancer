@@ -12,6 +12,12 @@ li a{
 img{
     width: 100%;
 }
+h2{
+    font-size: 40px;
+}
+section{
+    padding: 2rem 0;
+}
 /* Header */
 header{
     background-color: #2c3e50;
@@ -37,7 +43,6 @@ nav{
     background-color: #1abc9c;
     color: white;
     text-align: center;
-    padding: 2rem 0;
 }
 #jumbotron-section img{
     width: 50%;
@@ -50,9 +55,23 @@ nav{
     margin-bottom: 1rem;
     font-weight: bold;
 }
-.ms_container-sm h2{
-    font-size: 40px;
-}
 .ms_container-sm .skills{
     font-size: 1.2rem;
+}
+/* Portfolio */
+#portfolio{
+    color: #333;
+    padding-bottom: 4rem;
+}
+#portfolio h2,
+#portfolio .star-strike{
+    text-align: center;
+    padding: 1rem 0;
+}
+.col img{
+    border-radius: 10px;
+    width: 100%;
+}
+.col-content{
+    margin-bottom: 1rem;
 }
