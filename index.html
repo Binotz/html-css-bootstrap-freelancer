@@ -118,12 +118,25 @@
         </div>
         <div class="contact-container">
             <div class="container-fluid">
-                <div class="form">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus atque unde accusamus tempora totam. Rerum tenetur ratione, placeat temporibus consequuntur ad quos reprehenderit, expedita perspiciatis autem nulla est hic quae!
-                    Sunt deleniti, vitae atque alias dolorem quo perspiciatis laboriosam at porro tempore ipsa consectetur. Error nemo vel quo, provident iste iure, cum exercitationem iusto nesciunt ducimus reiciendis ullam dolor asperiores.
-                    Esse laboriosam odit sit culpa pariatur exercitationem officia quia quidem animi sint, odio quam enim hic dignissimos quos iusto optio sapiente. Dolores provident mollitia, facere unde ut nostrum tempora minima.
-                    Aut earum autem est ab ut, iure, id illo hic veritatis voluptatem dolorum error praesentium odio blanditiis quia repellat rem laudantium rerum nihil illum minus ex expedita. Nesciunt, fugiat laudantium.
-            </div>
+                <form>
+                    <div class="mb-3">
+                      <label for="name" class="form-label visually-hidden">Name</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label visually-hidden">Email Address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label visually-hidden">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Phone number">
+                      </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label visually-hidden">Message</label>
+                      <textarea class="form-control" id="message" aria-describedby="message" placeholder="Message"></textarea>
+                    </div>  
+                    <button type="submit" class="btn ms_btn_green">Send</button>
+                  </form>
         </div>
     </section>
     </main>

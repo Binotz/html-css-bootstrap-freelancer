@@ -31,6 +31,11 @@ footer{
 .star-strike{
     padding: 1rem 0;
 }
+.ms_btn_green{
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    color: white;
+}
 /* Header */
 header{
     background-color: #2c3e50;
@@ -132,12 +137,18 @@ nav{
     padding-top: 2rem;
 }
 /* Contact me */
-#contact-me{
+#contact-me h3,
+#contact-me .star-strike-dark{
     text-align: center;
 }
 .contact-container{
     width: 60%;
     margin:0 auto;
+}
+.form-control{
+    border-top-width: 0px;
+    border-left-width: 0;
+    border-right-width: 0;
 }
 /* Footer */
 /* Details */
