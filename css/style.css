@@ -4,7 +4,11 @@ ul{
     margin: 0;
     padding: 0;
 }
+li{
+    display: inline-block;
+}
 li a{
+    display: inline-block;
     color: inherit;
     text-decoration: none;
     padding: 0 1rem;
@@ -13,7 +17,7 @@ img{
     width: 100%;
 }
 h2{
-    font-size: 40px;
+    font-size: 3rem;
 }
 section,
 footer{
@@ -54,8 +58,39 @@ nav{
     text-align: center;
 }
 #jumbotron-section img{
-    width: 50%;
+    width: 250px;
+    margin-bottom: 1rem;
 }
+.star-strike-white i,
+.star-strike-dark i
+{
+    font-size: 25px;
+    vertical-align: middle;
+    padding: 1rem 0;
+}
+.star-strike-white::before,
+.star-strike-white::after,
+.star-strike-dark::before,
+.star-strike-dark::after
+{
+    content:"";
+    height: 5px;
+    width: 20%;
+    max-width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.star-strike-white::after,
+.star-strike-white::before{
+    background-color: white;
+    vertical-align: middle;
+}
+.star-strike-dark::after,
+.star-strike-dark::before{
+    background-color: #333;
+    vertical-align: middle;
+}
+
 .ms_container-sm{
     max-width: 600px;
     margin: 0 auto;
@@ -72,10 +107,6 @@ nav{
     color: #333;
     text-align: center;
     padding-bottom: 4rem;
-}
-#portfolio h3,
-#portfolio .star-strike{
-    padding: 1rem 0;
 }
 .col img{
     border-radius: 10px;
@@ -121,8 +152,26 @@ nav{
 #details .col{
     text-align: center;
 }
-#details .col:last-child span{
+#details ul{
+    position: relative;
+}
+#details li{
+    width: 50px;
+    height: 50px;
+    border:1px solid white;
+    border-radius: 50%;
+    margin: 10px 5px 5px 0px;
+    position: relative;
+}
+#details li a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#details .col:last-child a{
     color: #1abc9c;
+    text-decoration: none;
 }
 /* Copyright */
 #copyright{

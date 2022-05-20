@@ -42,10 +42,12 @@
     <!-- jumbotron -->
     <section id="jumbotron-section">
         <div class="container-md">
-            <div class="ms_container-sm">
+            <div class="text-center">
                 <img src="./img/avatar.svg" alt="Avatar">
                 <h2>START BOOTSTRAP</h2>
-                <div class="star-strike">Star icon</div>
+                <div class="star-strike-white">
+                    <i class="fa-solid fa-star"></i>
+                </div>
                 <div class="skills">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
             </div>
         </div>
@@ -54,7 +56,9 @@
     <section id="portfolio">
         <div class="container-md">
             <h3>PORTFOLIO</h3>
-            <div class="star-strike">Star icon</div>
+            <div class="star-strike-dark">
+                <i class="fa-solid fa-star"></i>
+            </div>
             <!-- Images -->
             <div class="container">
                 <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
@@ -83,7 +87,9 @@
     <!-- About -->
     <section id="about">
         <h3>ABOUT</h3>
-        <div class="star-strike">Star</div>
+        <div class="star-strike-white">
+            <i class="fa-solid fa-star"></i>
+        </div>
         <!-- two colums layout -->
         <div class="about_container">
             <div class="container-fluid">
@@ -98,12 +104,18 @@
             </div>
         </div>
         <!-- download -->
-        <div class="download-button">Download button</div>
+        <div class="download-button">
+            <a href="#" class="btn btn-outline-light">
+                <i class="fa-solid fa-download"></i>
+                Download</a>
+        </div>
     </section>
     <!-- Contact me -->
     <section id="contact-me">
         <h3>CONTACT ME</h3>
-        <div class="star-strike">Star icon</div>
+        <div class="star-strike-dark">
+            <i class="fa-solid fa-star"></i>
+        </div>
         <div class="contact-container">
             <div class="container-fluid">
                 <div class="form">
@@ -121,24 +133,35 @@
         <section id="details">
             <div class="container-details">
                 <div class="container">
-                    <div class="row gy-5 row-cols-1 row-cols-md-3">
+                    <div class="row gy-5 row-cols-1 ">
                         <!-- Location -->
-                      <div class="col">
+                      <div class="col col-md-3">
                         LOCATION<br>
                         2215 John Daniel Drive Clark, MO 54243
                       </div>
                       <!-- Around the web -->
-                      <div class="col">
-                        AROUND THE WEB<br>
-                        <i>icon</i>
-                        <i>icon</i>
-                        <i>icon</i>
-                        <i>icon</i>
+                      <div class="col col-md-6">
+                        AROUND THE WEB
+                        <ul>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                        
                       </div>
                       <!-- About Freelance -->
-                      <div class="col">
+                      <div class="col col-md-3">
                         ABOUT FREELANCER<br>
-                        Freelance is a free to user, open source bootstrap theme created by <span>Start Bootstrap</span>.
+                        Freelance is a free to user, open source bootstrap theme created by <a href="#">Start Bootstrap</a>.
                       </div>
                     </div>
                 </div>
